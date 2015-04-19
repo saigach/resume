@@ -31,7 +31,17 @@
 		<!--script type="text/javascript" src="js/stellar.js-master/jquery.stellar.js"></script-->
 
 		<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Sans+Caption' rel='stylesheet' type='text/css'>
+		
+		<script type="text/javascript">
+		<!--
+		if (screen.width <= 699) {
+		document.location = "index-if.html";
+		}
+		//-->
+		</script>
+		
 		<script>
+					
 			$(document).ready(function() {
 				$('.expand').on('click', function() {
 					var iframe = document.getElementById('wrapper');
